@@ -1,0 +1,19 @@
+{
+  "name": "node-package",
+  "version": "0.0.1",
+  "description": "Easily install node.js packages from github",
+  "keywords": [],
+  "author": "Matthew Mueller <mattmuelle@gmail.com>",
+  "dependencies": {
+    "debug": "~0.7.2",
+    "rimraf": "~2.1.4",
+    "shelly": "0.0.3",
+    "tar": "~0.1.17",
+    "request": "~2.21.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "index"
+}
