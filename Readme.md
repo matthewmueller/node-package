@@ -14,7 +14,7 @@ var Package = require('node-package');
 
 Package('matthewmueller/cheerio@0.10.0').install(function(err) {
   if (err) throw err;
-  // installed at $cwd/matthewmueller/cheerio@0.10.0
+  // installed at $cwd/matthewmueller-cheerio@0.10.0
 });
 ```
 
