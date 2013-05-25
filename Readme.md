@@ -25,15 +25,17 @@ Package('matthewmueller/cheerio@0.10.0').install(function(err) {
 
 ## API
 
-### Package(name, options)
+### Package(name)
 
-  Initialize `Package` with the `name` of a github repository. `options` include:
-
-  - `dir`: where the package should be installed. defaults to `process.cwd()`.
+  Initialize `Package` with the `name` of a github repository
 
 ```js
-var pkg = Package('matthewmueller/cheerio', { dir : __dirname });
+var pkg = Package('matthewmueller/cheerio');
 ```
+
+### Package.dir(dirname)
+
+  Set where the package will be installed. Defaults to `process.cwd()`.
 
 ### Package.install(fn)
 
