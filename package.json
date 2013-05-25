@@ -1,6 +1,6 @@
 {
   "name": "node-package",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Easily install node.js packages from github",
   "keywords": [],
   "author": "Matthew Mueller <mattmuelle@gmail.com>",
