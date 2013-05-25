@@ -3,6 +3,10 @@
 
   Easily install node.js packages from github. Supports tags and uses github namespacing for unique packages. Can consume packages that are not published to NPM.
 
+## Installation
+
+    npm install node-package
+
 ## Example
 
 ```js
