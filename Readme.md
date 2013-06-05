@@ -21,7 +21,7 @@ Package('matthewmueller/cheerio@0.10.0').install(function(err) {
 ## Events
 
 - `install` (name): emitted when the package was successfully installed
-- `error` (err, name): emitted when the package installation encountered an error
+- `err` (err, name): emitted when the package installation encountered an error
 
 ## API
 
